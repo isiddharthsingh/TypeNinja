@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed and Accuracy Game</h1>
+        <div class="game">
+            <p id="quote">The quick brown fox jumps over the lazy dog.</p>
+            <textarea id="input" placeholder="Start typing..."></textarea>
+            <div class="stats">
+                <p>Time: <span id="time">0</span> seconds</p>
+                <p>Accuracy: <span id="accuracy">0</span>%</p>
+                <p>Words per minute: <span id="wpm">0</span></p>
+            </div>
+            <button id="restart">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
